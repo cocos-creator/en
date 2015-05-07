@@ -56,7 +56,7 @@
                         <li><a href="http://docs.fireball-x.com">Docs</a></li>
                         <li><a href="https://github.com/fireball-x/fireball/releases">Releases</a></li>
                         <li><a href="https://github.com/fireball-x/fireball/issues">Feedback</a></li>
-                        <li><a href="http://fireball-x.com" id="nav-demo">中文</a></li>
+                        <li><a href="#" id="zh">中文</a></li>
                         <li class="github-star"><iframe src="https://ghbtns.com/github-btn.html?user=fireball-x&repo=fireball&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe></li>
 					</ul>
 				</div>
@@ -96,63 +96,66 @@
     </div>
 </div>
 
-<div id="features" class="container features">
-
-         <div class="row">
-             <div class="col-md-12">
-                  <h2 class="subtitle">Fireball Features</h2>
-                  <div class="underline"></div>
-             </div>
-         </div>
-         <div class="row info">
-             <div class="col-md-6">
-                  <div class="icon-border"><img class="center-block" src="img/fireball-UL.png"/></div>
-                  <div class="icon-info">
-                       <h3>Integrated Cross-platform Editor</h3>
-                       <p>Using a framework powered by Polymer and Electron, Fireball has integrated full-featured toolset in a single cross-platform desktop app. Developers can complete a full workflow containing tasks such as scene building, animation, particle, bitmap font, run your game and deploy to mobile platform all in the same editor.</p>
-                  </div>
-             </div>
-             <div class="col-md-6">
-                  <div class="icon-border"><img class="center-block" src="img/web-link.png"/></div>
-                  <div class="icon-info">
-                       <h3>Supports Multiple Game Engines</h3>
-                       <p>Probably the first game development editor that are plugged with different open sourced game engines. Start with Pixi.js and Cocos2D-JS, we will be supporting engines written in C++ in the future. Make it extremely flexible for users to choose engines that best suit their needs, while keeping the same GUI toolset to create content-rich games.</p>
-                  </div>
-             </div>
-
+<div id="features" class="container-fluid features">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+             <h2 class="subtitle">Fireball Features</h2>
+             <div class="underline"></div>
         </div>
-        <div class="row info">
-          <div class="col-md-6">
-               <div class="icon-border"><img class="center-block" src="img/system.png"/></div>
-               <div class="icon-info">
-                    <h3>Extend the Editor with Packages</h3>
-                    <p>Fireball has a very slim core structure. Beyond that are all plugins (or packages). Build a package to extend the editor with new panels is as easy as building a HTML page with JavaScript functions. Users can choose packages for a certain project to keep things minimal. Also user can import any npm or bower packages into their projects, all good with JavaScript.</p>
-               </div>
+    </div>
+    <div class="row info">
+        <div class="col-md-6">
+             <div class="icon-border"><img class="center-block" src="img/fireball-UL.png"/></div>
+             <div class="icon-info">
+                  <h3>Integrated Cross-platform Editor</h3>
+                  <p>Using a framework powered by Polymer and Electron, Fireball has integrated full-featured toolset in a single cross-platform desktop app. Developers can complete a full workflow containing tasks such as scene building, animation, particle, bitmap font, run your game and deploy to mobile platform all in the same editor.</p>
+             </div>
+        </div>
+        <div class="col-md-6">
+             <div class="icon-border"><img class="center-block" src="img/web-link.png"/></div>
+             <div class="icon-info">
+                  <h3>Supports Multiple Game Engines</h3>
+                  <p>Probably the first game development editor that are plugged with different open sourced game engines. Start with Pixi.js and Cocos2D-JS, we will be supporting engines written in C++ in the future. Make it extremely flexible for users to choose engines that best suit their needs, while keeping the same GUI toolset to create content-rich games.</p>
+             </div>
+        </div>
+
+   </div>
+   <div class="row info">
+     <div class="col-md-6">
+          <div class="icon-border"><img class="center-block" src="img/system.png"/></div>
+          <div class="icon-info">
+               <h3>Extend the Editor with Packages</h3>
+               <p>Fireball has a very slim core structure. Beyond that are all plugins (or packages). Build a package to extend the editor with new panels is as easy as building a HTML page with JavaScript functions. Users can choose packages for a certain project to keep things minimal. Also user can import any npm or bower packages into their projects, all good with JavaScript.</p>
           </div>
-             <div class="col-md-6">
-                  <div class="icon-border"><img class="center-block"  src="img/icon-platform.png "/></div>
-                  <div class="icon-info">
-                       <h3>Play as You Build</h3>
-                       <p>We make sure developers can hit the "Play" button any time in the editor to see what's going on with the game. When playing in editor users can still tweak things around like component properties and object positions. With Chrome's DevTools you can even change your scripting while playing and see the difference immediately.</p>
-                  </div>
-             </div>
-           </div>
-           <div class="row info">
-             <div class="col-md-6">
-                  <div class="icon-border"><img class="center-block"  src="img/one-key-push.png"/></div>
-                  <div class="icon-info">
-                       <h3>Customizable Data Management and Inspecting</h3>
-                       <p>From assets to components, user can control the serialization and deserialization for every bit of data defined. With a bit of customization, data can be shown in Inspector just the way you want.</p>
-                  </div>
-             </div>
-             <div class="col-md-6">
-                  <div class="icon-border"><img class="center-block" src="img/clound.png"/></div>
-                  <div class="icon-info">
-                       <h3>Automatic Build, Preview and Deploy</h3>
-                       <p>Powered with gulp.js, Fireball can take over build pipeline with a single button. Once a project is built, you can immediately access your game from mobile browser. Continuous integration is also another click away, thanks to fully JavaScript workflow.</p>
-                  </div>
+     </div>
+        <div class="col-md-6">
+             <div class="icon-border"><img class="center-block"  src="img/icon-platform.png "/></div>
+             <div class="icon-info">
+                  <h3>Play as You Build</h3>
+                  <p>We make sure developers can hit the "Play" button any time in the editor to see what's going on with the game. When playing in editor users can still tweak things around like component properties and object positions. With Chrome's DevTools you can even change your scripting while playing and see the difference immediately.</p>
              </div>
         </div>
+      </div>
+      <div class="row info">
+        <div class="col-md-6">
+             <div class="icon-border"><img class="center-block"  src="img/one-key-push.png"/></div>
+             <div class="icon-info">
+                  <h3>Customizable Data Management and Inspecting</h3>
+                  <p>From assets to components, user can control the serialization and deserialization for every bit of data defined. With a bit of customization, data can be shown in Inspector just the way you want.</p>
+             </div>
+        </div>
+        <div class="col-md-6">
+             <div class="icon-border"><img class="center-block" src="img/clound.png"/></div>
+             <div class="icon-info">
+                  <h3>Automatic Build, Preview and Deploy</h3>
+                  <p>Powered with gulp.js, Fireball can take over build pipeline with a single button. Once a project is built, you can immediately access your game from mobile browser. Continuous integration is also another click away, thanks to fully JavaScript workflow.</p>
+             </div>
+        </div>
+   </div>
+  </div>
+
+
 </div>
 
 <div class="container editor">
@@ -320,6 +323,6 @@
         $('#nav-features').click(function(){$('html,body').animate({scrollTop:$('#features').offset().top}, 1000);});
 		$('#nav-demo').click(function(){$('html,body').animate({scrollTop:$('#demo').offset().top}, 1800);});
 </script>
-
+<script src="js/scripts.js"></script>
 </body>
 </html>

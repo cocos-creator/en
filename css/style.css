@@ -1,0 +1,451 @@
+body {
+  font-family:Roboto, microsoft yahei;
+  font-size:14px;
+  color:#5E5E5E;
+  line-height:24px;
+  text-align:center;
+}
+
+ul > li.github-star {
+  line-height: 30px;
+  margin-left: 30px;
+  margin-top: 13px;
+}
+
+.container,.row {
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.navbar.navbar-default {
+  margin-bottom:0px;
+}
+
+.nav.navbar-nav {
+  float:right;
+  margin:12px 0px 5px 0px;
+}
+
+.navbar.navbar-default {
+  border:0px;
+  background:white;
+  border-radius:0px;
+}
+
+.nav.navbar-nav li img {
+  padding: 14px 0px;
+  margin-left: 55px
+}
+
+.navbar-default .navbar-nav>.active>a,.nav.navbar-nav li a:hover, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #ff7d68;
+  background-color: #fff;
+}
+
+.nav.navbar-nav li a {
+  padding:15px 0px 15px 55px;
+  color:#999999;
+  transition: color 300ms ease;
+}
+
+.banner-background {
+  background: url(../img/banner.png) no-repeat center top;
+  background-size:cover;
+  min-height: 777px;
+  width: 100%;
+  text-align:center;
+  padding-top:250px;
+}
+
+.banner-background img {
+  max-width:60%;
+}
+
+.banner-background p {
+  color:#fff;
+  opacity: 0.8;
+  font-size: 1.3em;
+  margin:14px 0px 114px 0px;
+}
+
+.btn-fireball {
+  background:none;
+  border: 2px solid #fff;
+  padding: 18px 95px;
+  color:#fff;
+  font-size:16px;
+  transition: background 500ms ease,color 100ms ease;
+  line-height:1px;
+}
+
+.btn-fireball:hover{
+  background:#fff;
+  text-decoration:none;
+  color:#999;
+}
+
+.introduction {
+  padding:130px 0px;
+  text-align:left;
+}
+
+.subtitle {
+  font-size:34px;
+  color:#333333;
+  font-weight:bold;
+
+}
+
+.underline {
+  width:48px;
+  height:2px;
+  background:#fb4a5f;
+  margin: -5px auto 15px auto;
+}
+
+.introduction .underline {
+  margin: -5px 0px 15px 0px;
+}
+
+.introduction p {
+  margin-bottom:3em;
+}
+
+.introduction .btn-fireball {
+  font-size:14px;
+  color:#333;
+  border: 1px solid #333;
+  padding: 14px 68px;
+  transition: background 500ms ease,color 100ms ease;
+}
+
+.introduction .btn-fireball:hover{
+  color:#fff;
+  background:#333;
+}
+
+
+.introduction .info {
+  padding-top:80px;
+}
+
+.html5 img {
+  float:right;
+}
+
+.features {
+  padding: 60px 25px 100px 25px;
+  background:#fafafa;
+  text-align:left;
+}
+
+.features .subtitle {
+  text-align:center;
+}
+
+.row.info {
+  margin-top:40px;
+}
+
+.info h3 {
+  font-size:16px;
+  color:#333;
+  font-weight:bold;
+  display:inline-block;
+  margin-top:40px;
+}
+
+.icon-border {
+  float: left;
+  margin-top: 50px;
+}
+
+.icon-info {
+  margin-left:159px;
+  margin-right: 20px;
+}
+
+.editor {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.gif {
+  border:1px solid #e5e5e5;
+  padding:10px;
+}
+
+.gif img {
+  width:100%;
+}
+
+.editor-gif{
+  text-align:left;
+  margin-top:60px;
+}
+
+.gif-info h3 {
+  font-size:16px;
+  font-weight:bold;
+  color:#333;
+}
+
+.demoshow {
+  padding-top:90px;
+  padding-bottom:90px;
+  background:#fafafa;
+}
+
+.demoshow .underline {
+  margin-bottom:40px;
+}
+
+.media {
+  border:1px solid #e5e5e5;
+  padding:10px;
+}
+
+.gif-info {
+  text-align:left;
+}
+
+.gif-info h3 {
+  margin-top:0px;
+}
+
+.gif-info p {
+  margin-bottom:60px;
+}
+
+.demoshow .btn-fireball {
+  font-size:14px;
+  color:#333;
+  border: 1px solid #333;
+  padding: 14px 68px;
+  transition: background 500ms ease,color 100ms ease;
+}
+
+.demoshow .btn-fireball:hover{
+  color:#fff;
+  background:#333;
+}
+
+.subscription {
+  padding-top:100px;
+  padding-bottom:100px;
+  background:#2c3036;
+}
+
+.subscription h2 {
+  color:#fff;
+}
+
+.subscription-info {
+  margin-top:30px;
+  color: #999999;
+}
+
+form {
+  padding-left:20px;
+  padding-right:20px;
+  margin-top:10px;
+}
+
+.btn.btn-default {
+  width:20%;
+  display: block;
+  padding: 15px 30px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  background:#ff7d68;
+  color:#fff;
+  float:left;
+}
+
+.form-control {
+  display:inline-block;
+  float:left;
+  width: 80%;
+  height: 50px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background:none;
+  background-image: none;
+  border: 1px solid #ff7d68;
+  border-left: 0px;
+  border-radius: 0px;
+}
+
+.register a {
+  background:#ff7d68;
+  padding: 15px 30px;
+  color:#fff;
+  transition: background 500ms ease;
+  vertical-align:middle;
+  margin-top:-3px;
+  display:inline-block;
+}
+
+.register a:hover {
+  background:#e4715e;
+  text-decoration:none;
+}
+
+.documentation a {
+  color:#ff7d68;
+  font-size:16px;
+  font-weight:bold;
+  display:inline-block;
+}
+
+.documentation p {
+  margin-bottom:0px;
+}
+
+.copyright {
+  background:#24272c;
+  padding-top:100px;
+  padding-bottom:50px;
+  text-align:left;
+  color: #999999;
+}
+
+.copyright a {
+  color:#fff;
+  display:block;
+  margin-bottom:10px;
+  font-size:13px;
+}
+
+.sitemap {
+  padding-top:20px;
+}
+
+p.copyright {
+  padding-left:15px;
+}
+
+.navbar-toggle {
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+}
+
+.navbar-collapse {
+  padding-right: 5px;
+  padding-left: 5px;
+
+}
+
+.navbar-brand {
+  padding: 15px 0px 15px 10px;
+
+}
+
+@media (max-width: 1200px){
+
+.nav.navbar-nav li a {
+  padding:15px 0px 15px 22px;
+  color:#999999;
+  transition: color 300ms ease;
+}
+
+ul > li.github-star {
+  line-height: 30px;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+
+
+.html5 img {
+  width:80%;
+  padding-top:80px;
+}
+
+.introduction {
+  padding-top:0px;
+}
+
+form {
+  padding-left:0px;
+  padding-right:0px;
+  margin-top: -10px;
+}
+
+}
+
+
+
+@media (max-width: 768px){
+
+.navbar-collapse {
+  max-height: 480px;
+}
+.html5 img {
+  display:none;
+}
+.introduction .info {
+  text-align:center;
+}
+.introduction .underline{
+  float:none;
+  margin-left:auto;
+  margin-right:auto;
+}
+}
+
+
+@media (max-width: 520px){
+
+body{
+  font-size:12px;
+}
+.banner-background {
+  padding-top:50px;
+  padding-bottom:50px;
+  min-height:200px;
+}
+
+.btn.btn-default {
+  padding:15px 15px;
+}
+
+.features {
+  padding-top:60px;
+}
+
+.editor {
+  padding-bottom:20px;
+}
+
+.editor-gif {
+  margin-top: 20px;
+}
+
+.gif-info p {
+  margin-bottom:30px;
+}
+}
+
+
+@media (max-width: 980px){
+.gif-info {
+  text-align:center;
+  margin-top:15px;
+}
+
+.copyright {
+  text-align: center;
+}
+}

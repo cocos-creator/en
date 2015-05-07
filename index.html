@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fireball - Hackable Game Editor For Mobile and HTML5 Games</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12  column">
+			<nav class="navbar navbar-default" role="navigation">
+
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     </button>
+                     <a class="navbar-brand" href="#"><img src="img/logo.png" width="130px"  /></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="/">Home</a></li>
+                        <li><a href="#features" id="nav-features">Features</a></li>
+                        <li><a href="http://docs.fireball-x.com">Docs</a></li>
+                        <li><a href="https://github.com/fireball-x/fireball/releases">Releases</a></li>
+                        <li><a href="https://github.com/fireball-x/fireball/issues">Feedback</a></li>
+                        <li><a href="http://fireball-x.com" id="nav-demo">中文</a></li>
+                        <li class="github-star"><iframe src="https://ghbtns.com/github-btn.html?user=fireball-x&repo=fireball&type=star&count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe></li>
+					</ul>
+				</div>
+
+			</nav>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid  banner-background">
+    <div class="container">
+        <div class="row">
+             <div class="col-md-12">
+                  <img src="img/banner-title.png" width="100%" />
+                  <p>Fireball is a Hackable editor that combines power of full GUI toolset and popular open sourced game engine such as Pixi.js and Cocos2D-JS to create cross-platform mobile and HTML5 games.</p>
+                  <a href="https://github.com/fireball-x/fireball/releases" class="btn-fireball">DOWNLOAD</a>
+             </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid introduction">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 info">
+                 <h2 class="subtitle">What is Fireball?</h2>
+                 <div class="underline"></div>
+                 <p>Fireball is an editor framework for game development. We focus on creating the most accessible and feature reach GUI toolset in one single editor with HTML and JavaScript. On the runtime side, Fireball uses other popular open sourced game engines such as Pixi.js and Cocos2D-JS. This makes Fireball really easy to get into for game engine users. Users will keep the benefit of all the features, packing and optimization of other game engines, but with a better editor much more can be achieved.</p>
+                 <p>
+                   The editor design is deeply inspired by Unity which we believe has the most advanced game developing editor at the moment. Fireball advances in editor and tool extendability thanks to modern Web technology. We use a combination of Polymer, Electron, Nodejs and plain-old HTML and CSS. Web developers can easily hack the editor and create tools that empowers your workflow in no time.</p>
+                 <a href="https://github.com/fireball-x/fireball/issues/3" class="btn-fireball">Fireball Roadmap</a>
+            </div>
+            <div class="col-md-6 html5">
+                <img src="img/html5.png"  />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="features" class="container features">
+
+         <div class="row">
+             <div class="col-md-12">
+                  <h2 class="subtitle">Fireball Features</h2>
+                  <div class="underline"></div>
+             </div>
+         </div>
+         <div class="row info">
+             <div class="col-md-6">
+                  <div class="icon-border"><img class="center-block" src="img/fireball-UL.png"/></div>
+                  <div class="icon-info">
+                       <h3>Integrated Cross-platform Editor</h3>
+                       <p>Using a framework powered by Polymer and Electron, Fireball has integrated full-featured toolset in a single cross-platform desktop app. Developers can complete a full workflow containing tasks such as scene building, animation, particle, bitmap font, run your game and deploy to mobile platform all in the same editor.</p>
+                  </div>
+             </div>
+             <div class="col-md-6">
+                  <div class="icon-border"><img class="center-block" src="img/web-link.png"/></div>
+                  <div class="icon-info">
+                       <h3>Supports Multiple Game Engines</h3>
+                       <p>Probably the first game development editor that are plugged with different open sourced game engines. Start with Pixi.js and Cocos2D-JS, we will be supporting engines written in C++ in the future. Make it extremely flexible for users to choose engines that best suit their needs, while keeping the same GUI toolset to create content-rich games.</p>
+                  </div>
+             </div>
+
+        </div>
+        <div class="row info">
+          <div class="col-md-6">
+               <div class="icon-border"><img class="center-block" src="img/system.png"/></div>
+               <div class="icon-info">
+                    <h3>Extend the Editor with Packages</h3>
+                    <p>Fireball has a very slim core structure. Beyond that are all plugins (or packages). Build a package to extend the editor with new panels is as easy as building a HTML page with JavaScript functions. Users can choose packages for a certain project to keep things minimal. Also user can import any npm or bower packages into their projects, all good with JavaScript.</p>
+               </div>
+          </div>
+             <div class="col-md-6">
+                  <div class="icon-border"><img class="center-block"  src="img/icon-platform.png "/></div>
+                  <div class="icon-info">
+                       <h3>Play as You Build</h3>
+                       <p>We make sure developers can hit the "Play" button any time in the editor to see what's going on with the game. When playing in editor users can still tweak things around like component properties and object positions. With Chrome's DevTools you can even change your scripting while playing and see the difference immediately.</p>
+                  </div>
+             </div>
+           </div>
+           <div class="row info">
+             <div class="col-md-6">
+                  <div class="icon-border"><img class="center-block"  src="img/one-key-push.png"/></div>
+                  <div class="icon-info">
+                       <h3>Customizable Data Management and Inspecting</h3>
+                       <p>From assets to components, user can control the serialization and deserialization for every bit of data defined. With a bit of customization, data can be shown in Inspector just the way you want.</p>
+                  </div>
+             </div>
+             <div class="col-md-6">
+                  <div class="icon-border"><img class="center-block" src="img/clound.png"/></div>
+                  <div class="icon-info">
+                       <h3>Automatic Build, Preview and Deploy</h3>
+                       <p>Powered with gulp.js, Fireball can take over build pipeline with a single button. Once a project is built, you can immediately access your game from mobile browser. Continuous integration is also another click away, thanks to fully JavaScript workflow.</p>
+                  </div>
+             </div>
+        </div>
+</div>
+
+<div class="container editor">
+     <div class="row">
+          <div class="col-md-12">
+                  <h2 class="subtitle">Fireball In Action</h2>
+                  <div class="underline"></div>
+          </div>
+     </div>
+     <div class="row editor-gif">
+          <div class="col-md-7  ">
+                <div class="gif">
+                  <video width="100%" class="blue-border" poster="img/fb-assetmanager.jpg" autoplay="" loop="true">
+      <source src="video/fb-assetmanager.mp4" type="video/mp4" media="(min-device-pixel-ratio:1.5), (-webkit-min-device-pixel-ratio:1.5), (min--moz-device-pixel-ratio:1.5), (-o-min-device-pixel-ratio:1.5)">
+      <source src="video/fb-assetmanager.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+                </div>
+          </div>
+          <div class="col-md-5 ">
+                <div class="gif-info">
+                   <h3>Assets and Data Inspecting</h3>
+                   <p>Inspecting and editing all kinds of assets and data, each has its own type of properties. You can write your own data interpreter to display complex data structures.</p>
+                </div>
+          </div>
+     </div>
+     <div class="row editor-gif">
+          <div class="col-md-7 col-md-push-5 ">
+                <div class="gif">                    <video width="100%" class="blue-border" poster="img/fb-devtools-debug.png" autoplay="" loop="true">
+                        <source src="video/fb-devtool-debug.mp4" type="video/mp4" media="(min-device-pixel-ratio:1.5), (-webkit-min-device-pixel-ratio:1.5), (min--moz-device-pixel-ratio:1.5), (-o-min-device-pixel-ratio:1.5)">
+                        <source src="video/fb-devtool-debug.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video></div>
+          </div>
+          <div class="col-md-5 col-md-pull-7">
+                <div class="gif-info">
+                   <h3>Debugging With DevTools</h3>
+                   <p>Using Chromium as the core, you can debug and profiling anything running in Fireball with powerful DevTools. Editing scripts during runtime is also possible!</p>
+                </div>
+          </div>
+     </div>
+     <div class="row editor-gif">
+          <div class="col-md-7">
+                <div class="gif">
+                  <video width="100%" class="blue-border" poster="img/fb-preview-build.jpg" autoplay="" loop="true">
+    <source src="video/fb-preview-build.mp4" type="video/mp4" media="(min-device-pixel-ratio:1.5), (-webkit-min-device-pixel-ratio:1.5), (min--moz-device-pixel-ratio:1.5), (-o-min-device-pixel-ratio:1.5)">
+    <source src="video/fb-preview-build.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+                </div>
+          </div>
+          <div class="col-md-5">
+                <div class="gif-info">
+                   <h3>One Button Build and Preview</h3>
+                   <p>Besides play in editor, build your project for mobile devices is just one button away. Fireball will setup web server automatically so that you can access your game directly on mobile devices.</p>
+                </div>
+          </div>
+     </div>
+</div>
+
+<div id="demo" class="container-fluid demoshow">
+     <div class="container">
+         <div class="row">
+             <div class="col-md-12">
+                  <h2 class="subtitle">DEMO GAME</h2>
+                  <div class="underline"></div>
+             </div>
+         </div>
+         <div class="row">
+             <div class="col-md-7">
+                  <div class="media">
+                    <iframe width="100%" height="576" scrolling="no" src="http://dev.fireball-sheep.avosapps.com"></iframe>
+                  </div>
+             </div>
+             <div class="col-md-5">
+                  <div class="gif-info">
+                    <h3>Duang Duang Sheep</h3>
+                    <p>A flappy bird clone mini game showing features like: basic scene building, instantiate objects in runtime, sprite animation, user input and bitmap font.</p>
+                    <a href="https://github.com/fireball-x/tutorial" class="btn-fireball">View project source</a>
+                  </div>
+             </div>
+         </div>
+     </div>
+</div>
+
+<div class="container-fluid subscription">
+     <div class="container">
+         <div class="row">
+              <div class="col-md-12">
+                  <h2 class="subtitle">Join Alpha Test Now!</h2>
+                  <div class="underline"></div>
+             </div>
+         </div>
+         <div class="row subscription-info">
+           <div class="col-md-2"></div>
+              <div class="col-md-8">
+                  <p>Fireball is in alpha stage at the moment. We are working hard on stabilize framework structure and integrating more and more features from Cocos2D-JS and Pixi.js. It's not production ready but we invite everyone to build test projects with it and give feedback! To participate, just subscribe to our newsletter or follow our Github repo. We will release new Fireball versions once two weeks and you'll be noticed by email.</p>
+                  <form action="https://fireball-x.us10.list-manage.com/subscribe/post?u=ffcbaee6d640362623a8e44ba&amp;id=6d2a01cc06" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+                      <button type="submit" class="btn btn-default" id="mc-embedded-subscribe">Subscribe</button>
+                      <div class="form-group">
+                        <input class="form-control" type="email" placeholder="Enter your email address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                      </div>
+                  </form>
+             </div>
+             <div class="col-md-2"></div>
+         </div>
+
+         <div class="row subscription-info">
+              <div class="col-md-12 documentation">
+                  <p>Download Fireball Right Now:</p>
+                  <a href="https://github.com/fireball-x/fireball/releases">Fireball Releases</a>
+             </div>
+         </div>
+         <div class="row subscription-info">
+              <div class="col-md-12 documentation">
+                  <p>Learn What's Going On:</p>
+                  <a href="https://github.com/fireball-x/fireball/issues/3">Fireball Beta Roadmap</a>
+             </div>
+         </div>
+         <div class="row subscription-info">
+              <div class="col-md-12 register">
+                  <p>If you want to learn more about Fireball, check out tutorials and documentations.</p>
+                  <a href="http://docs.fireball-x.com">Fireball Learning Center</a>
+             </div>
+         </div>
+     </div>
+</div>
+
+<div class="container-fluid copyright">
+     <div class="container">
+          <div class="row">
+                <div class="col-md-3">
+                   <a><img src="img/logo.png" /></a>
+                </div>
+                <div class="col-md-3 sitemap">
+                   <p>Get Fireball</p>
+                   <a href="https://github.com/fireball-x/fireball/releases">Github Releases</a>
+                </div>
+                <div class="col-md-2 sitemap">
+                   <p>Resources</p>
+                   <a href="http://docs.fireball-x.com/tutorial">Tutorial</a>
+                   <a href="http://docs.fireball-x.com/manual">User Manual</a>
+                   <a href="http://docs.fireball-x.com/api">API</a>
+                </div>
+                <div class="col-md-2 sitemap">
+                   <p>Support</p>
+                   <a href="https://github.com/fireball-x/fireball/issues">Github Issues</a>
+                   <a href="https://gitter.im/fireball-x/fireball?utm_source=share-link&utm_medium=link&utm_campaign=share-link">Gitter Chat</a>
+                </div>
+                <div class="col-md-2 sitemap">
+                   <p>About</p>
+                   <a href="http://firebox.im">Company</a>
+                   <a href="#">Press</a>
+                </div>
+          </div>
+          <div class="row">
+              <div class="col-md-offset-3">
+                <p class="copyright">© 2014 Firebox Technology Co., Ltd. All rights reserved</p>
+              </div>
+          </div>
+     </div>
+</div>
+
+<script>
+        $('#nav-features').click(function(){$('html,body').animate({scrollTop:$('#features').offset().top}, 1000);});
+		$('#nav-demo').click(function(){$('html,body').animate({scrollTop:$('#demo').offset().top}, 1800);});
+</script>
+
+</body>
+</html>

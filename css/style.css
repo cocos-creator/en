@@ -68,6 +68,11 @@ ul > li.github-star {
   margin:14px 0px 114px 0px;
 }
 
+div.slack {
+  margin-top: 30px;
+  vertical-align: baseline;
+}
+
 .btn-fireball {
   background:none;
   border: 2px solid #fff;

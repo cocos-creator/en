@@ -73,6 +73,12 @@ div.slack {
   vertical-align: baseline;
 }
 
+.slack .text {
+  margin-top: 5px;
+  margin-right: 20px;
+  float: left;
+}
+
 .btn-fireball {
   background:none;
   border: 2px solid #fff;
@@ -131,7 +137,7 @@ div.slack {
 
 
 .introduction .info {
-  padding-top:80px;
+  padding-top:10px;
 }
 
 .html5 img {

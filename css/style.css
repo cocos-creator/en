@@ -58,12 +58,12 @@ ul > li.github-star {
 }
 
 .banner-background {
-  background: url(../img/banner.png) no-repeat center top;
+  background: url(../img/sneakpeek-banner.gif) no-repeat center top;
   background-size:cover;
   min-height: 777px;
   width: 100%;
   text-align:center;
-  padding-top:250px;
+  padding-top:500px;
 }
 
 .banner-background img {
@@ -74,7 +74,7 @@ ul > li.github-star {
   color:#fff;
   opacity: 0.8;
   font-size: 1.3em;
-  margin:14px 0px 114px 0px;
+  margin:14px 0px 40px 0px;
 }
 
 div.slack {
@@ -95,7 +95,7 @@ div.slack {
 .btn-fireball {
   background:none;
   border: 2px solid #fff;
-  padding: 18px 95px;
+  padding: 12px 55px;
   color:#fff;
   font-size:16px;
   transition: background 500ms ease,color 100ms ease;
